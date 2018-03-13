@@ -1,10 +1,86 @@
-@import url('default.css');
-
 body {
     margin: 0;
     padding: 0;
+	background-color: #272624;
+
 }
-/*.main-container{
-	border: solid #fff 5px;
-	background-color: #000;
-}*/
+
+/* navigation */
+header {
+	/*other styling things*/
+	padding: 0;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: -100px;
+    box-shadow: 2px 4px 20px #000000;
+
+    /*background image place*/
+    background-image: url('images/white-background.jpg');
+    background-position: center;
+}
+.profiel-foto{
+	border-radius: 50%;
+	margin-left: 41.67%;
+    margin-top: 10px;
+    box-shadow: 2px 2px 20px #000;
+}
+.name {
+	padding-top: 110px;
+    text-align: center;
+    font-size: 60px;
+    color: #3a3a3a;
+    font-family: fantasy;
+}
+nav{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #1c1c1c;
+	font-size: 20px;
+	font-family: monospace;
+}
+li{
+	display: inline-block;
+	margin: 1% 6% 0 5%;
+}
+a {
+	display: block;
+	color: #f3f3f3;
+	margin-top: 5px;
+}
+a:hover{
+	color: #a7a6a0;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color: #fbfbfb;
+}
+i {
+	font-size: 25px;
+}
+.header-icon{
+	border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1b1b1b;
+    border: none;
+    background-color: #5a5954;
+    outline: 0;
+}
+
+
+
+/* all the grid sources */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
